@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Lac</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <img src="LOGO.jpg" height="200" />
+
+      <div class="centrado">SECRET CODE</div>
+    </div>
+
+    <hr />
+
+    <div class="nosotros">
+      <a href="nosotros.html">NOSOTROS</a>
+    </div>
+    <br />
+
+    <form>
+      <fieldset>
+        <!--fieldset (grupo de campos) permite organizar en grupos los campos de un formulario.// -->
+        <legend>Datos</legend>
+        Nombre:
+        <input
+          type="text"
+          name="Nombre"
+          id="name"
+          autofocus
+          autocomplete
+          required
+          placeholder="obligatorio"
+        />
+        <br />
+        Apellido Paterno:
+        <input
+          type="text"
+          name="Apellido Paterno"
+          id="pat"
+          autofocus
+          autocomplete
+          required
+          placeholder="obligatorio"
+        />
+        <br />
+        Apellido Materno:
+        <input
+          type="text"
+          name="Apellido Materno"
+          id="mat"
+          autofocus
+          autocomplete
+          required
+          placeholder="obligatorio"
+        />
+
+        <button type="button" id="lac">Enviar</button>
+        <br />
+      </fieldset>
+    </form>
+
+    <br />
+<div class="textt">
+
+
+    <div id="root">
+      INTRODUCE UN TEXTO:
+      <input type="text" id="texto" />
+      <br>
+      ESCOGE UN NUMERO DE POSICION:
+      <input type="number" id="displace" />
+      <br>
+      <button id="encode">Codificar</button>
+      <button id="decode">Descodificar</button>
+      <input type="text" id="result" />
+    </div>
+  </div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

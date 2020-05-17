@@ -1,0 +1,83 @@
+form {
+  text-align: center;
+}
+.titulo {
+  font-style: normal;
+  color: purple;
+  text-align: center;
+  font-size: 0.8cm;
+}
+
+legend {
+  border-spacing: 2cm;
+  content: normal;
+}
+
+.texto {
+  text-align: center;
+}
+
+.traductor {
+  text-align: center;
+}
+
+.botones {
+  text-align: center;
+}
+
+.seleccionar {
+  text-align: center;
+}
+
+.nosotros {
+  text-align: right;
+}
+.descripcion {
+  text-align: justify;
+  font-size: medium;
+  color: rgb(39, 20, 148);
+  padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 150%;
+  transform: translate(-50%, -50%);
+  font-style: oblique;
+  color: purple;
+  text-align: center;
+  font-size: 1.3cm;
+  font-weight: bolder;
+}
+
+.logotipos {
+  text-align: center;
+  height: fit-content;
+}
+
+img {
+  width: 450px;
+}
+
+.textt{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger; color: blue; font-weight: bold;
+}
+
+.comenzarr{
+  text-align: center;
+}
+
+#encode{
+  font-size: 12 px;
+}
